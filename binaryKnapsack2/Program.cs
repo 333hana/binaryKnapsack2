@@ -20,6 +20,9 @@ namespace binaryKnapsack2
                 Console.WriteLine("Item '" + i + "' value is " + val[i]);
                 Console.WriteLine("...............................");
             }
+            GeneticKnapsack genetic = new GeneticKnapsack(wt, val, W, wt.Length, 13, 100);
+            genetic.solveGenetic();
+            Console.WriteLine("----------------------------------------------------------");
         }
     }
 }
