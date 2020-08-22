@@ -133,4 +133,3 @@ namespace binaryKnapsack2
         }
     }
 }
-}

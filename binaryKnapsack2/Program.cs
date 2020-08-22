@@ -23,6 +23,9 @@ namespace binaryKnapsack2
             GeneticKnapsack genetic = new GeneticKnapsack(wt, val, W, wt.Length, 13, 100);
             genetic.solveGenetic();
             Console.WriteLine("----------------------------------------------------------");
+            KnapsackGreedy greedy = new KnapsackGreedy(wt, val, W);
+            greedy.solveGreedy();
+            Console.WriteLine("----------------------------------------------------------");
         }
     }
 }
